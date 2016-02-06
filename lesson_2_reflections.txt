@@ -20,4 +20,15 @@ Trying out a new uncertain feature, multiple people working on a project.
 The code is kept intact and working while people work on branches to later merge.
 
 How do the diagrams help you visualize the branch structure?
-It's easy too see which changes/commits are in which branches. 
+It's easy too see which changes/commits are in which branches.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+All the additions and subtractions in both branches are put together in the same
+files, in the checked out branch. ??
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+Always doing it manually means there is extra time to reflect on the changes and
+if they are sound. The con is that it takes time.
+Automatic merging saves time when there are no conflicts.
